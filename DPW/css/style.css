@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Monda&family=Montserrat:wght@100;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+body {
+    font-size: 18px;
+    background-color: rgb(0, 110, 255);
+    font-family: 'Monda', sans-serif;
+    text-transform: capitalize;
+    margin: 20px;
+    /* font-weight: 500; */
+}
+.home {
+    margin: 200px;
+}
+.box {
+    max-width: 700px;
+    background-color: #eee;
+    margin: 20px auto;
+    padding: 30px;
+    border-radius: 10px;
+}
+.home h3 {
+    font-weight: 500;
+}
+.home p {
+    font-size: 16px;
+    line-height: 40px;
+}
+.btn {
+    padding: 8px 16px;
+    text-transform: capitalize;
+    background-color: rgb(0, 110, 255);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+.quiz-box .quiz-number{
+    color: rgb(0, 110, 255);
+    border-bottom: 1px solid #ccc;
+    line-height: 20px;
+    padding-bottom: 10px;
+}
+.quiz-box .quiz-text {
+    text-align: justify;
+    font-size: 22px;
+    /* margin: 10px; */
+    padding: 5px;
+}
+.quiz-box .quiz-option .option{
+    background-color: #ccc;
+    margin-top: 10px;
+    padding: 15px;
+    line-height: 20px;
+    border-radius: 5px;
+    
+}
+.next {
+    margin-top: 20px;
+}
+.result {
+    text-align: center;
+}
+.result h1 {
+    font-size: 36px;
+    color: rgb(0, 110, 255);
+    font-weight: 500;
+}
+.result table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+.result table td {
+    border: 1px solid #ccc;
+    text-align: left;
+    padding: 5px 10px;
+    width: 50%;
+}
+.show {
+    display: block;
+}
+.hide {
+    display: none;
+}
